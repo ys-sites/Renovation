@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import heroBg from "../hero.jpeg";
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
           animate={{ scale: 1 }}
           transition={{ duration: 1.5 }}
           className="w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: 'url(/hero.avif)' }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

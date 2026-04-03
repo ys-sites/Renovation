@@ -9,6 +9,7 @@ import About from './components/About';
 import Categories from './components/Categories';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
+import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ export default function App() {
       <Categories />
       <Services />
       <Gallery />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>
